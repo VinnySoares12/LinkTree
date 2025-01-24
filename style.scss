@@ -7,6 +7,13 @@
 
 @import"partials/colors";
 
+#particles-js {
+    width: 100%;
+    height: 100vh; /* Isso faz as partículas ocuparem a tela inteira */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
 body{
     font-family: 'poppins', sans-serif;
