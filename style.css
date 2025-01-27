@@ -85,7 +85,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200px 0;
+  margin: 100px 0 0 0;
 }
 footer p {
   background: linear-gradient(to right, #ffffff 70%, #190225 110%);
