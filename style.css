@@ -5,12 +5,6 @@
   outline: 0;
 }
 
-#particles-js {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
 body {
   font-family: "poppins", sans-serif;
   color: #F4F4F4;
@@ -35,7 +29,9 @@ section img {
   border: 2px solid white;
   opacity: 0.9;
 }
-section h1, section h3, section p {
+section h1,
+section h3,
+section p {
   background: linear-gradient(to right, #ffffff 70%, #190225 103%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,6 +64,23 @@ section h1, section h3, section p {
   font-weight: 600;
 }
 
+.icon {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  font-size: 2rem;
+}
+.icon a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.icon a:hover {
+  color: #190225;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -78,4 +91,13 @@ footer p {
   background: linear-gradient(to right, #ffffff 70%, #190225 110%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#particles-js {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
