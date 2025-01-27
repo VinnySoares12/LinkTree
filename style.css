@@ -35,14 +35,14 @@ section h1, section h3, section p {
   -webkit-text-fill-color: transparent;
 }
 
-div {
+.link {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
 
-a {
+.button {
   display: inline-block;
   text-decoration: none;
   color: #F4F4F4;
@@ -56,7 +56,7 @@ a {
   padding: 15px 110px;
 }
 
-a:hover {
+.button:hover {
   background-color: #F4F4F4;
   color: #190225;
   font-weight: 600;
@@ -72,4 +72,14 @@ footer p {
   background: linear-gradient(to right, #ffffff 70%, #190225 110%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  section img {
+    width: 100px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
