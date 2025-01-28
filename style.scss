@@ -41,7 +41,7 @@ section {
   p {
     background: linear-gradient(
       to right,
-      #ffffff 70%,
+      #ffffff 90%,
       $primary-background 103%
     );
     -webkit-background-clip: text;
@@ -308,8 +308,8 @@ footer {
 // icons
 
 .pulsate-bck {
-  -webkit-animation: pulsate-bck 0.9s ease-in-out infinite 1s both;
-  animation: pulsate-bck 0.9s ease-in-out infinite 1s both;
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite 1s both;
+  animation: pulsate-bck 0.7s ease-in-out infinite 1s both;
 }
 
 @-webkit-keyframes pulsate-bck {

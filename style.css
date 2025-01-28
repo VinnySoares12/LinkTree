@@ -35,7 +35,7 @@ section img {
 section h1,
 section h3,
 section p {
-  background: linear-gradient(to right, #ffffff 70%, #190225 103%);
+  background: linear-gradient(to right, #ffffff 90%, #190225 103%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -173,7 +173,7 @@ footer p {
   }
 }
 .pulsate-bck {
-  animation: pulsate-bck 0.9s ease-in-out infinite 1s both;
+  animation: pulsate-bck 0.7s ease-in-out infinite 1s both;
 }
 @keyframes pulsate-bck {
   0% {
