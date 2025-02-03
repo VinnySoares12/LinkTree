@@ -37,6 +37,7 @@ section h3,
 section p {
   background: linear-gradient(to right, #ffffff 90%, #190225 103%);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -94,6 +95,7 @@ footer {
 footer p {
   background: linear-gradient(to right, #ffffff 70%, #190225 110%);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

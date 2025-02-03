@@ -44,7 +44,7 @@ section {
       #ffffff 90%,
       $primary-background 103%
     );
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
@@ -109,7 +109,7 @@ footer {
       #ffffff 70%,
       $primary-background 110%
     );
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
