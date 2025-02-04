@@ -46,6 +46,7 @@ section {
     );
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
   }
 }
 
@@ -53,7 +54,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 1rem;
+  margin-top: 2.5rem;
 }
 
 .btn {
@@ -65,7 +67,7 @@ section {
   font-size: 18px;
   width: auto;
   max-width: 300px;
-  margin: 10px auto;
+  margin: 7px;
   transition: background-color 0.6s;
 
   padding: 15px 110px;
@@ -80,10 +82,10 @@ section {
 .icon {
   display: flex;
   align-items: center;
-  flex-direction: row;
   justify-content: center;
-  gap: 15px;
+  gap: 1.5rem;
   font-size: 2rem;
+  margin-top: 2.5rem;
 
   a {
     text-decoration: none;
